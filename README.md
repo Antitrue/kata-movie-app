@@ -1,1 +1,1 @@
-# kata-movie-app
+# Movie App
