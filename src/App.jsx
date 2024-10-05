@@ -58,7 +58,7 @@ function App() {
       return
     }
     setIsLoading(true)
-    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}5&query=${SearchQuery}`)
+    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${SearchQuery}`)
       .then((res) => res.json())
       .then((json) => {
         if (json.results.length === 0) {
